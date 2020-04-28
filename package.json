@@ -1,0 +1,15 @@
+{
+    "name": "web-cam",
+    "version": "0.0.1",
+    "description": "web-cam app",
+    "main": "main.js",
+    "scripts": {
+        "start": "node server.js",
+        "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "simple-peer": "^9.6.0",
+        "socket.io": "^2.3.0"
+    }
+}
